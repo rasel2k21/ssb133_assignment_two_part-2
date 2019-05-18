@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Fjalla+One|Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: #0e0e0f;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+header span{
+    font-size: 11px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+header a{
+    text-decoration: none;
+    color: #1dbf73;
+}
+/*start menu area*/
+.menu-section{
+    border-bottom: 1px solid #99999987;
+}
+.menu{
+	width: 100%;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 8px 38px 8px 0;
+    display: block;
+    color: #999999;
+    font-size: 17px;
+}
+
+/*start gallery area*/
+.gallery-section-area{}
+.gallery-section-area h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    color: #0e0e0f;
+    font-family: 'Fjalla One', sans-serif;
+}
+.gallery-section-area p{
+    text-align: center;
+    color: #555555;
+    margin-top: 5px;
+}
+.gallery{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.sidebar{
+    width: 20%;
+    float: left;
+}
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li{
+    list-style: none;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: #666;
+    line-height: 1.5;
+}
+.sidebar b{
+	color: #0e0e0f;
+}
+.gallery-img{
+    width: 80%;
+    float: left;
+    overflow: hidden;
+}
+.single-img{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.single-img img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.single-img h3{
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.single-img span{
+	
+display: inline-block;
+	
+background: #f21aa5;
+	
+color: #fff!important;
+	
+padding: 0 5px;
+	
+border-radius: 5px;
+}
+.caption{
+	text-align: left;
+}
+
+/*footer area*/
+
+footer{
+    background: #f0f0f0;
+    margin-top: 50px;
+}
+.footer-content{
+	overflow: hidden;
+	text-align: center;
+	padding: 60px 30px;
+}
+.single-content{
+	float: left;
+	width: 33.33%	
+}
+.single-content h3{
+    font-size: 34px;
+    color: #666666;
+    font-weight: 400;
+}
+..single-content b{}
+.single-content p{
+    color: #555555;
+    padding: 5px 34px;
+    font-size: 16px;
+}
